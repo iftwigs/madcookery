@@ -170,7 +170,7 @@ def generate_recipe(cuisine):
     return 'For this meal you will need '+', '.join(map(str, r)) + '.'
 
 
-token = '857435860:AAHNKQx202gHa73Ce86e4qLz3LTT_nvcipY'
+token = 'your token here'
 bot = telepot.Bot(token)
 
 def reply(text, chat_id):
